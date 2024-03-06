@@ -61,7 +61,7 @@ function getDate() {
             <div className="top_bar">
                <input type="text" className="cityInput"  placeholder="search"/>
                 <div className="search_icon" onClick={()=>{search()}}>
-                
+                    <img src={search_icon} alt="" />
                 </div>
             </div>
         <div className="weather_image">
@@ -70,7 +70,7 @@ function getDate() {
         <div className="weather_temp">
             <p>24°C</p>
         </div>
-        <div className="weather_location">London</div>
+        <div className="weather_location">Nepal</div>
         <div className="data_container">
             <div className="element">
                 <img src={humidity_icon} alt="" className="icon" />

@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import './App.css';
 import WeatherApp from './Components/WeatherApp/weather';
-
-  
 function App() {
   return (
     <div className="App">
@@ -14,5 +12,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
